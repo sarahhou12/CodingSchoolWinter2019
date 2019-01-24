@@ -18,6 +18,31 @@
         background-color: #596AA9;
         color: white;
       }
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        z-index: 1;
+      }
+      .dropdown-content p{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -36,7 +61,13 @@
     </nav>
     <p>
     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Aw6GkiCvcWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-    Amur Leopard
+    
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <p>Amur Leopard</p>
+      </div>
+    </div>
     <footer>Created by Sarah</footer>
   </body>
 </html>
