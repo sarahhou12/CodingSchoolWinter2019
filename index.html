@@ -5,20 +5,25 @@
     <style>
       .column{
         float: left;
-        width: 50%;
         padding: 10px;
         height: 300px;
       }
-      
-      .row:after{
-        content:"";
-        display: table;
-        clear: both;
+      .left{
+        width: 75%;
+      }
+      .right{
+        width: 25%;
       }
       .right p{
         background-color: pink;
         padding: 20px;
       }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+      
     </style>
   
   </head>
@@ -37,10 +42,10 @@
     </nav>
        
     <div class="row">
-      <div class="column" style="background-color:#aaa;">
+      <div class="column left" style="background-color:#aaa;">
         <center><iframe width="480" height="250" src="https://www.youtube.com/embed/Aw6GkiCvcWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
       </div>
-      <div class="column" style="background-color:#bbb;">
+      <div class="column right" style="background-color:#bbb;">
         <p>Welcome to our website!</p>  
       </div>
     </div>
