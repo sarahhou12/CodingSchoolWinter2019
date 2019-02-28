@@ -1,9 +1,23 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
     <style>
-      
+      .products li{
+        width: 200px;
+        min-height: 200px;
+        border: 1px solid black;
+        padding: 5px;
+        list-style: none;
+        display: inline-block;
+        margin: 5px;
+        vertical-align: top;
+      }
+      .products img{
+        width: 190px;
+      }
     </style>
+    
   </head>
   <body>
     <header>
@@ -24,7 +38,7 @@
       <li class="products">
         <div>
           <h3>Critically Endangered</h3>
-          <img src="monk_seal.jpg" height=300px>
+          <img src="monk_seal.jpg">
           <p>Critically endangered species are at an extremely high 
             risk of extinction.</p>
         </div>
@@ -32,7 +46,7 @@
       <li class="products">
         <div>
           <h3>Endangered</h3>
-          <img src="ferret.jpg" height=300px>
+          <img src="ferret.jpg">
           <p>Endangered species are very likely to become
             extinct.</p>
         </div>
